@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reset.css ress -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>かけだしkun</title>
+  <!-- 自分で理解できていないこと、わからないこと
+    フォント名、リセットCSS、ファビコン、<i>
+    target="_blank"、aria-label="menu"、 aria-hidden="true
+   -->
+</head>
+
+<body>
+  <!-- 背景 -->
+  <header class="header">
+    <h1>
+      <a href="index.html" class="logo">
+        <img src="images/ユーカリ１ぽん.jpg" alt="かけだしkunのサイト">
+
+      </a>
+    </h1>
+
+    <div class="sp-nav">
+      <a href="#" target="_blank">
+        <i class="fab fa-twitter" aria-label="twitter" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div id="nav-botton" class="nav-btn">
+      <i class="fas fa-bars" aria-label="menu" aria-hidden="true"></i>
+    </div>
+    <!-- SP-Nav -->
+    <nav class="sp-nav" style="display: none;">
+      <ul class="sp-nav-list">
+        <li><a href="index.html#work-top">お仕事</a></li>
+        <li><a href="index.html#profile-top">プロフィール</a></li>
+        <li><a href="contact.html">お問合せ</a></li>
+      </ul>
+    </nav>
+    <!-- PC-Nav -->
+    <nav class="pc-nav">
+      <ul class="pc-nav-list">
+        <li><a href="index.html#work-top">お仕事</a></li>
+        <li><a href="index.html#profile-top">プロフィール</a></li>
+        <li><a href="contact.html">お問合せ<i class="fab fa-twitter" aria-label="twitter" aria-hidden="true"></i></a>
+          <!-- ::before -->
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="sectionA">
+      <section>
+        <div class="cover-container">
+          <div src=".#" alt="背景画像SP" class="cover-back"></div> <!-- CP-navi -->
+          <div src=".#" alt="背景画像PC" class="cover-back-pc"></div> <!-- PC-navi -->
+          <div src=".#" alt="かけだしkun" class="cover-img"></div>
+          <div src=".#" alt="背景画像SP" class="lo-cover"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- お仕事 -->
+    <section class="conteiner" id="work-top">
+      <div class="index-work">
+        <div class="section-title">
+          <h2>お仕事</h2>
+          <img src="images/とうもろこし.PNG" alt="とうもろこしくん" class="icon-img">
+        </div>
+    </section>
+    <!-- お問合せ -->
+    <div class="index-contact">
+      <div class="index-contact-box">
+        <div class="contact-text-box">
+          <p>お仕事のご依頼やご相談について、どうぞお気軽にお問合せください</p>
+        </div>
+        <a href="contact.html">プロフィール</a>
+        <img src="#" alt="にんじんくん" class="support-img icon-img">
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <div class="top-ahiru">
+    <a href="index.html">
+      <img src="images/とうもろこし.PNG" alt="とうもろこしくん" class="icon-img">
+    </a>
+  </div>
+  <footer class="footer">
+    <small>
+      <a href="privacypolicy.html">プライバシーポリシー</a>
+    </small>
+    <small>©︎2023 kakedashikun All rights reserves </small>
+  </footer>
+
+
+</body>
+
+</html>
