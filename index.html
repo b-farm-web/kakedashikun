@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- reset.css ress -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+  <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>かけだしkun</title>
+  <!-- 自分で理解できていないこと、わからないこと
+    フォント名、リセットCSS、ファビコン、<i>
+    target="_blank"、aria-label="menu"、 aria-hidden="true
+   -->
+</head>
+
+<body>
+  <!-- 背景 -->
+  <header class="header">
+    <h1>
+      <a href="index.html" class="logo">
+        <img src="images/ユーカリ１ぽん.jpg" alt="かけだしkunのサイト">
+
+      </a>
+    </h1>
+
+    <div class="sp-nav">
+      <a href="#" target="_blank">
+        <i class="fab fa-twitter" aria-label="twitter" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div id="nav-botton" class="nav-btn">
+      <i class="fas fa-bars" aria-label="menu" aria-hidden="true"></i>
+    </div>
+    <!-- SP-Nav -->
+    <nav class="sp-nav" style="display: none;">
+      <ul class="sp-nav-list">
+        <li><a href="#work-top">お仕事</a></li>
+        <li><a href="#profile-top">プロフィール</a></li>
+        <li><a href="contact.html">お問合せ</a></li>
+      </ul>
+    </nav>
+    <!-- PC-Nav -->
+    <nav class="pc-nav">
+      <ul class="pc-nav-list">
+        <li><a href="#work-top">お仕事</a></li>
+        <li><a href="#profile-top">プロフィール</a></li>
+        <li><a href="contact.html">お問合せ<i class="fab fa-twitter" aria-label="twitter" aria-hidden="true"></i></a>
+          <!-- ::before -->
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="sectionA">
+      <section>
+        <div class="cover-container">
+          <div src=".#" alt="背景画像SP" class="cover-back"></div> <!-- CP-navi -->
+          <div src=".#" alt="背景画像PC" class="cover-back-pc"></div> <!-- PC-navi -->
+          <div src=".#" alt="かけだしkun" class="cover-img"></div>
+          <div src=".#" alt="背景画像SP" class="lo-cover"></div>
+        </div>
+        <!-- オリジナル漫画 -->
+        <div class="yellow-bg">
+          <section class="container">
+            <div class="index-original-manga">
+              <div class="section-title">
+                <h2>オリジナル漫画</h2>
+                <img src="images/とうもろこし.PNG" alt="とうもろこしくん" class="icon-img">
+              </div>
+
+              <!-- 作品１ -->
+              <div class="origeial-manga-item">
+                <div class="original-manga-image">
+                  <img src="images/観葉植物たち.jpg" alt="オリジナル漫画>
+                  <img src="" alt="">
+                </div>
+
+                <div class=" original-manga-content">
+                  <div class="text-box">
+                    <h3 class="index-original-manga-title">未経験から100話で終わるかけだしKun</h3>
+                    <div class="manga-item-text">
+                      <p>スキルがなくても、WEB制作で一発逆転！</p>
+                      <p>夢見るかけだしKunのほのぼのノンフィクション</p>
+                    </div>
+                    <a href="#" class="btn">読んでみる</a>
+                  </div>
+                </div>
+                <!-- 作品２ -->
+                <div class="origeial-manga-item">
+                  <div class="original-manga-image">
+                    <img src="images/neom-2Eewt6DoSRI-unsplash.jpg" alt="オリジナル漫画">
+                  </div>
+                  <div class="original-manga-content">
+                    <div class="text-box">
+                      <h3 class="index-original-manga-title">未経験から100話Webフロントエンジニアを<br>目指して頑張るかけだしKun</h3>
+                      <div class="manga-item-text">WEB制作修行から、フロントを頑張りたい、かけだしKunのほのぼのノンフィクション</div>
+                    </div>
+                    <a href="#" class="btn">読んでみる</a>
+                  </div>
+                </div>
+              </div>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- お仕事 -->
+    <section class="conteiner" id="work-top">
+      <div class="index-work">
+        <div class="section-title">
+          <h2>お仕事</h2>
+          <img src="images/人参.PNG" alt="とうもろこしくん" class="icon-img">
+        </div>
+        <div class="work-map">
+          <div class="index-work-flex">
+            <div class="index-work-item">
+              <img src="images/okinawaPAUI3827_TP_V4.jpg" alt="株式会社RPG TIMES様 パンフレット用漫画">
+              <div class="text-box">
+                <div class="day-text">
+                  <p>2023/3/23</p>
+                </div>
+                <a href="#">"株式会社RPG TIMES様"<br>"パンフレット用漫画"</a>
+              </div>
+            </div>
+          </div>
+          <div class="index-work-flex">
+            <div class="index-work-item">
+              <img src="images/IMG_2401.jpg" alt="スタートエンド様 イベント広告用漫画">
+              <div class="text-box">
+                <div class="day-text">
+                  <p>2023/1/5</p>
+                </div>
+                <a href="#">"株式会社スタートエンド様"<br>"イベント広告用漫画"</a>
+              </div>
+            </div>
+          </div>
+          <div class="index-work-flex">
+            <div class="index-work-item">
+              <img src="images/ピンポン.jpg" alt="ピンポンプラッツ様 PR用漫画" id="pinpon">
+              <div class="text-box">
+                <div class="day-text">
+                  <p>2023/7/23</p>
+                </div>
+                <a href="#">"ピンポンプラッツ様"<br>"ランディングページ"</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#work-top" class="btn">お仕事実績</a>
+      </div>
+    </section>
+    <!-- プロフィール -->
+    <section class="container">
+      <div class="index-profile">
+        <div class="section-title">
+          <h2>プロフィール</h2>
+          <img src="images/あやめかぶ.PNG" alt="とうもろこしくん" class="icon-img">
+        </div>
+        <div class="index-profile-main">
+          <div class="index-profile-image">
+            <div class="index-profile-kakedashi">
+              <img src="images/IMG_0501.JPG" alt="かけだしくん">
+            </div>
+          </div>
+          <div class="text-box" id="profile-top">
+            <p>埼玉県滑川町の某農園で農家してます。 </p>
+            <p>墨田区京島と埼玉県滑川町の２拠点生活中。</p>
+            <p>晴耕雨読にて農家をしつつ、Webを勉強してます。</p>
+            <p>冬はWeb制作をメインに活動中です。</p>
+            <p>焼き菓子、和菓子が好きで、休日はカフェ巡りしてます。</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- お問合せ -->
+    <div class="index-contact">
+      <div class="index-contact-box">
+        <div class="contact-text-box">
+          <p>お仕事のご依頼やご相談について、どうぞお気軽にお問合せください！</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <div class="top-ahiru">
+    <a href="index.html">
+      <img src="images/とうもろこし.PNG" alt="とうもろこしくん" class="icon-img">
+    </a>
+  </div>
+  <footer class="footer">
+    <small>
+      <a href="privacypolicy.html">プライバシーポリシー</a>
+    </small>
+    <small>©︎2023 kakedashikun All rights reserves </small>
+  </footer>
+
+
+</body>
+
+</html>
